@@ -190,3 +190,62 @@ section#section-projects div.acess-github-project a{
 section#section-projects div.acess-github-project a:hover{
     background: #c9c8c8;
 }
+
+footer h1{
+    border-top: 1px solid white;
+    padding-top: 50px;
+    font-size: 1.7rem;
+}
+footer li.social-icons{
+    color: white;
+    display: inline;
+
+    cursor: pointer;
+
+}
+footer li.social-icons img{
+    width: 2%;
+    margin: 40px 20px 70px 0px;
+}
+footer{
+    border-bottom: 1px solid white;
+    margin-bottom: 50px;
+}
+@media(max-width: 700px) {
+    header#header-container nav li a{
+        text-decoration: none;
+        transition: 1s;
+        font-size: 0.7rem;
+    }
+    section#section-welcome h2{
+        font-size: 2rem;
+    }
+    
+    section#section-welcome h1{
+        font-size: 2rem;
+    }
+
+    section#section-welcome div#button-contact{
+        background: white;
+        color: black;
+        display: block;
+        width: 12%;
+        padding: 1% 0px;
+        margin-top: 4.8%;
+    
+        border-radius: 50px;
+        font-weight: 700;
+    }
+    section#section-welcome div#button-contact a{
+        background: white;
+        color: black;
+        text-decoration: none;
+        padding: 11% 12%;
+    }
+    section#section-projects div.projects{
+        display: block;
+        justify-content: space-between;
+        margin-bottom: 70px;
+        margin: auto;
+    }
+}
