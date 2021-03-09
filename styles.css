@@ -224,6 +224,9 @@ footer{
         width: 6%;
         margin: 40px 25px 0px 0px;
     }
+    section#section-bio li.social-icons img:hover{
+        margin: 40px 25px 0px 0px;
+    }
     section#section-cursos p img{
         width: 5%;
         margin-right: 10px;
@@ -317,7 +320,9 @@ footer{
         width: 10%;
         margin: 20px 20px 0px 15px;
     }
-
+    section#section-bio li.social-icons img:hover{
+        margin: 20px 20px 0px 15px;
+    }
     section#section-cursos{
         margin: 20% 5% 0% 5%;
         padding: 50% 0% 50% 0%;
