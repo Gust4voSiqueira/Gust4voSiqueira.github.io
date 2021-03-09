@@ -208,6 +208,50 @@ footer{
     border-bottom: 1px solid white;
     margin-bottom: 50px;
 }
+@media(max-width: 1048px) {
+    section#section-welcome{
+        padding-bottom: 40%;
+    }
+    section#section-welcome h2{
+        font-size: 2rem;
+        margin-top: 35%;
+    }
+    
+    section#section-welcome h1{
+        font-size: 2rem;
+    }
+    section#section-bio li.social-icons img{
+        width: 6%;
+        margin: 40px 25px 0px 0px;
+    }
+    section#section-cursos p img{
+        width: 5%;
+        margin-right: 10px;
+    }
+    section#section-projects h3{
+        padding-top: 10%;
+        margin-left: 5%;
+        font-size: 1.5rem;
+        margin-bottom: 4rem;
+        text-align: left;
+    }
+    section#section-cursos h3{
+        font-size: 1.1rem;
+        margin-left: 1%;
+        font-size: 1.5rem;
+        }
+        section#section-cursos{
+            margin: 5%;
+        }
+        section#section-projects{
+            margin-top: 45%;
+        }
+
+        footer li.social-icons img{
+            width: 4%;
+            margin: 30px 20px 20px 0px;
+        }
+
 @media(max-width: 700px) {
     header#header-container nav li a{
         text-decoration: none;
@@ -215,8 +259,8 @@ footer{
         font-size: 0.7rem;
     }
     section#section-welcome h2{
-        font-size: 1.7rem;
-        margin-top: 50%;
+        font-size: 2rem;
+        margin-top: 80%;
     }
     
     section#section-welcome h1{
@@ -362,48 +406,5 @@ footer{
         margin-bottom: 10px;
     }
 }
-@media(max-width: 1048px) {
-    section#section-welcome{
-        padding-bottom: 40%;
-    }
-    section#section-welcome h2{
-        font-size: 2.5rem;
-        margin-top: 22%;
-    }
-    
-    section#section-welcome h1{
-        font-size: 2.5rem;
-    }
-    section#section-bio li.social-icons img{
-        width: 6%;
-        margin: 40px 25px 0px 0px;
-    }
-    section#section-cursos p img{
-        width: 5%;
-        margin-right: 10px;
-    }
-    section#section-projects h3{
-        padding-top: 10%;
-        margin-left: 5%;
-        font-size: 1.5rem;
-        margin-bottom: 4rem;
-        text-align: left;
-    }
-    section#section-cursos h3{
-        font-size: 1.1rem;
-        margin-left: 1%;
-        font-size: 1.5rem;
-        }
-        section#section-cursos{
-            margin: 5%;
-        }
-        section#section-projects{
-            margin-top: 45%;
-        }
-
-        footer li.social-icons img{
-            width: 4%;
-            margin: 30px 20px 20px 0px;
-        }
 
 }
